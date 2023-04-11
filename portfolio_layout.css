@@ -100,18 +100,13 @@ Description: css style sheet for resume.html
   }
 
 @media only screen and (min-width: 769px) {/*desktop*/
-
-  header h1{
-    width:20%
-  }
-
+/*nav menu*/
   #hamnav {
-    width: 80%;
+    width: 100%;
     background: #000;
-    float:right;
+    float:left;
   }
-
-  /* (B) HORIZONTAL MENU ITEMS */
+  /*HORIZONTAL MENU ITEMS */
   #hamitems { display: flex; }
   #hamitems a {
     flex-grow: 1;
@@ -121,38 +116,45 @@ Description: css style sheet for resume.html
     text-decoration: none;
     text-align: center;
   }
-
   #hamitems a:hover { background: #af0d0d; }
-  /* (C) HIDE HAMBURGER */
+  /*HIDE HAMBURGER */
   #hamnav label, #hamburger { display: none; }
+
+  /*grid display*/
   .reHeading { grid-area: reHeading; }
   .rePersonal { grid-area: rePersonal; }
   .reContact { grid-area: reContact; }
   .reEducation { grid-area: reEducation; }
   .reSkills { grid-area: reSkills; }
   .reWork { grid-area: reWork; }
-  .grid-container {
+
+  /*resume grid */
+  .grid-container-resume {
       display: grid;
+      grid-auto-rows: 1fr; 
+      grid-auto-columns: 1fr;
       grid-template-areas:
-        'reHeading reHeading reHeading '
-        'rePersonal reSkills reSkills'
-        'reContact reWork reWork'
-        'reEducation reWork reWork';
+        'reHeading reHeading reContact '
+        'reEducation rePersonal rePersonal'
+        'reEducation reWork reWork'
+        'reSkills reWork reWork'
+        'reSkills reWork reWork';
       gap: 5px 5px;
       background-color: white; 
       padding: 10px;
-      width: 80%;
+      width: 60%;
       margin-left: 10%;
-      float:left;
-      
+      margin-right: 10%;
+      float:center;
   }  
-    .grid-container > div {
-      background-color: rgba(255, 255, 255, 0.8);
+    .grid-container-resume > div {
+      grid:auto;
       text-align: left;
-      padding: 10px 0;
+      padding: 10% 10%;
       font-size: 30px;
-      width: 90%;
-      margin-left:50%;
+      width:80%;
+      margin-left:0%;
+      margin-right: 0%;
 
     }
 
