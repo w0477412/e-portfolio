@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 
+Author: Aundrea Johnston
+Date: Feb 3 2023
+Description: css style sheet for e portfoloio
+*/
+
+body{
+    background-color:white;
+    color: black;
+    font-style:normal;
+}
+
+h1{
+    background-color: white;
+}
+
+h2{
+    background-color: white;
+}
+
+body{
+    background-color: white;
+}
+
+p{
+   background-color:white;
+   font-size:12px ;
+}
+
