@@ -4,7 +4,7 @@ Author:Aundrea Johnston
 Date:Feb 16 2023
 Description: css style sheet for resume.html
 */
-  @media only screen and (max-width: 480px) { /*mobile phone*/
+@media only screen and (max-width: 768px) { /*mobile phone*/
 
       /*BREAK INTO VERTICAL MENU */
       #hamitems a {
@@ -39,66 +39,6 @@ Description: css style sheet for resume.html
     }
 
 
-
-  @media only screen and (min-width: 481px) {/*tablet/large phone*/
-    @media screen and (max-width: 768px){
-      /* (A) BREAK INTO VERTICAL MENU */
-      #hamitems a {
-        box-sizing: border-box;
-        display: block;
-        width: 100%;
-        border-top: 1px solid #333;
-      }
-     
-      /* (B) SHOW HAMBURGER ICON */
-      #hamnav label { 
-        display: inline-block; 
-        color: white;
-        background: #a02620;
-        font-style: normal;
-        font-size: 1.2em;
-        padding: 10px;
-      }
-    
-      /* (C) TOGGLE SHOW/HIDE MENU */
-      #hamitems { display: none; }
-      #hamnav input:checked ~ #hamitems { display: block; }
-    }
-
-    .reHeading { grid-area: reHeading; }
-    .rePersonal { grid-area: rePersonal; }
-    .reContact { grid-area: reContact; }
-    .reEducation { grid-area: reEducation; }
-    .reSkills { grid-area: reSkills; }
-    .reWork { grid-area: reWork; }
-    
-    .grid-container {
-        display: grid;
-        grid-template-areas:
-          'reHeading reHeading reHeading '
-          'rePersonal reSkills reSkills'
-          'reContact reWork reWork'
-          'reEducation reWork reWork';
-    
-        gap: 5px 5px;
-        background-color: rgba(150, 185, 160);
-        padding: 10px;
-        width: 80%;
-        margin-left: 10%;
-        
-    }  
-    
-      .grid-container > div {
-        background-color: rgba(255, 255, 255, 0.8);
-        text-align: left;
-        padding: 10px 0;
-        font-size: 30px;
-        width: 90%;
-        margin-left:50%;
-      }		
-
-  }
-
 @media only screen and (min-width: 769px) {/*desktop*/
 /*nav menu*/
   #hamnav {
@@ -127,29 +67,30 @@ Description: css style sheet for resume.html
   .reEducation { grid-area: reEducation; }
   .reSkills { grid-area: reSkills; }
   .reWork { grid-area: reWork; }
+  .reImage {grid-area: reImage; }
+  .reAboutMe {grid-area: reAboutMe; }
 
   /*resume grid */
   .grid-container-resume {
       display: grid;
-      grid-auto-rows: 1fr; 
+      grid-auto-rows: auto; 
       grid-auto-columns: 1fr;
       grid-template-areas:
-        'reHeading reHeading reContact '
-        'reEducation rePersonal rePersonal'
+        'reHeading reHeading reHeading'
         'reEducation reWork reWork'
-        'reSkills reWork reWork'
+        'rePersonal reWork reWork'
         'reSkills reWork reWork';
       gap: 5px 5px;
       background-color: white; 
       padding: 10px;
-      width: 60%;
-      margin-left: 10%;
-      margin-right: 10%;
-      float:center;
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
   }  
     .grid-container-resume > div {
       grid:auto;
       text-align: left;
+      text-align:top;
       padding: 10% 10%;
       font-size: 30px;
       width:80%;
@@ -157,6 +98,27 @@ Description: css style sheet for resume.html
       margin-right: 0%;
 
     }
+    .grid-container-home{
+      display:grid;
+      grid-auto-columns: 1fr;
+      grid-template-areas: 
+      'reImage reAboutMe'
+      'reImage reAboutMe'
+      'reImage reAboutMe';
+      background-color: white; 
+      padding: 20px;
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+      float:center;
+    }
+    .grid-container-home > div {
+      grid:auto;
+      text-align: left;
+      padding: 10% 10%;
+      font-size: 20px;
+      width:80%;
+
+    }
 
 }
-
