@@ -25,8 +25,13 @@ Description: css style sheet for resume.html
       }
     
       /*TOGGLE SHOW/HIDE MENU */
-      #hamitems { display: none; }
-      #hamnav input:checked ~ #hamitems { display: block; }
+      #hamitems { 
+      display: none;
+    }
+
+      #hamnav input:checked ~ #hamitems { 
+      display: block;
+     }
     }
     article{
       margin-bottom:10px;
@@ -96,9 +101,14 @@ Description: css style sheet for resume.html
 
 @media only screen and (min-width: 769px) {/*desktop*/
 
+  header h1{
+    width:20%
+  }
+
   #hamnav {
-    width: 100%;
+    width: 80%;
     background: #000;
+    float:right;
   }
 
   /* (B) HORIZONTAL MENU ITEMS */
@@ -129,7 +139,7 @@ Description: css style sheet for resume.html
         'reContact reWork reWork'
         'reEducation reWork reWork';
       gap: 5px 5px;
-      background-color: rgba(150, 185, 160);
+      background-color: white; 
       padding: 10px;
       width: 80%;
       margin-left: 10%;

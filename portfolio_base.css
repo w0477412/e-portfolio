@@ -6,25 +6,25 @@ Description: css style sheet for e portfoloio
 */
 
 body{
-    background-color:white;
+    background-color: rgb(120, 140, 85);
     color: black;
     font-style:normal;
 }
 
 h1{
-    background-color: white;
+    background-color: rgb(120, 140, 85);
 }
 
 h2{
-    background-color: white;
+    background-color: rgb(120, 140, 85);
 }
 
 body{
-    background-color: white;
+    background-color: rgb(120, 140, 85);
 }
 
 p{
-   background-color:white;
+   background-color:rgb(120, 140, 85);
    font-size:12px ;
 }
 
