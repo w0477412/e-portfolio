@@ -17,8 +17,8 @@ Description: css style sheet for resume.html
       /*SHOW HAMBURGER ICON */
       #hamnav label { 
         display: inline-block; 
-        color: white;
-        background: #a02620;
+        background: white;
+        color: #836a4a;
         font-style: normal;
         font-size: 1.2em;
         padding: 10px;
@@ -33,17 +33,13 @@ Description: css style sheet for resume.html
       display: block;
      }
     }
-    article{
-      margin-bottom:10px;
-      background-color: rgba(150, 185, 160);
-    }
 
 
 @media only screen and (min-width: 769px) {/*desktop*/
 /*nav menu*/
   #hamnav {
     width: 100%;
-    background: #000;
+    background-color: white;
     float:left;
   }
   /*HORIZONTAL MENU ITEMS */
@@ -52,11 +48,12 @@ Description: css style sheet for resume.html
     flex-grow: 1;
     flex-basis: 0;
     padding: 10px;
-    color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
+    size: 40px
   }
-  #hamitems a:hover { background: #af0d0d; }
+  #hamitems a:hover { color: #836a4a; }
   /*HIDE HAMBURGER */
   #hamnav label, #hamburger { display: none; }
 
@@ -89,8 +86,7 @@ Description: css style sheet for resume.html
   }  
     .grid-container-resume > div {
       grid:auto;
-      text-align: left;
-      text-align:top;
+      text-align:left;
       padding: 10% 10%;
       font-size: 30px;
       width:80%;
@@ -105,7 +101,7 @@ Description: css style sheet for resume.html
       'reImage reAboutMe'
       'reImage reAboutMe'
       'reImage reAboutMe';
-      background-color: white; 
+      background-color: lightgray; 
       padding: 20px;
       width: 65%;
       margin-left: auto;
