@@ -4,6 +4,8 @@ Author:Aundrea Johnston
 Date:Feb 16 2023
 Description: css style sheet for resume.html
 */
+
+
 @media only screen and (max-width: 768px) { /*mobile phone*/
 
       /*BREAK INTO VERTICAL MENU */
@@ -32,14 +34,31 @@ Description: css style sheet for resume.html
       #hamnav input:checked ~ #hamitems { 
       display: block;
      }
+    
     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 769px) {/*desktop*/
 /*nav menu*/
   #hamnav {
     width: 100%;
-    background-color: white;
+    background-color: rgb(230 230 230 );
     float:left;
   }
   /*HORIZONTAL MENU ITEMS */
@@ -47,11 +66,11 @@ Description: css style sheet for resume.html
   #hamitems a {
     flex-grow: 1;
     flex-basis: 0;
-    padding: 10px;
+    padding: 20px;
     color: black;
     text-decoration: none;
     text-align: center;
-    size: 40px
+    size: 20px
   }
   #hamitems a:hover { color: #836a4a; }
   /*HIDE HAMBURGER */
@@ -101,7 +120,7 @@ Description: css style sheet for resume.html
       'reImage reAboutMe'
       'reImage reAboutMe'
       'reImage reAboutMe';
-      background-color: lightgray; 
+      background-color: rgb(247 247 247); 
       padding: 20px;
       width: 65%;
       margin-left: auto;
