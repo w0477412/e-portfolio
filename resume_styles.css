@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* 
+Author: Aundrea Johnston
+Date: Feb 3 2023
+Description: css style sheet for e portfoloio
+*/
+
+.reWork h3{
+    font-size:25px;
+    text-decoration: underline;
+}
+
+.reWork h4{
+    font-size:20px;
+}
+
+.reWork h5{
+    font-size:16px;
+    font-style:italic;
+    font-weight: 100;
+}
+
+.reWork p{
+    font-size:16px;
+}
+
+.reHeading h3{
+    color:rgb(179, 138, 76);
+    font-size: 40px;
+}
+
+.reHeading h4{
+    font-size:24px;
+}
+
+.reEducation h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.reEducation h4{
+    font-size:16px;
+    font-weight: 100;
+
+}
+
+.reEducation h5{
+    font-size:16px;
+    font-weight: 100;
+}
+
+.rePersonal h3{
+    font-size:25px;
+    text-decoration: underline;
+}
+
+.rePersonal p{
+    font-size: 16px;
+}
+
+.reSkills h3{
+    font-size:25px;
+    text-decoration: underline;
+}
+
+.reSkills p{
+    font-size: 16px;
+}
