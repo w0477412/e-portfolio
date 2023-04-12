@@ -14,22 +14,23 @@ header{
     background-color:white;
     text-align: center;
 }
-h1{
-    padding:4% 1% 1% 1%;
-    font-size: 30px;
+header h1{
+    padding:5% 1% 1% 1%;
+    font-size: 25px;
     font-style: bold;
 }
 
 h2{
-    padding:1%;
-    font-size: 20px
+    padding:1% 1% 5% 1%;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 body{
     background-color: rgb(247 247 247);
     color: black;
     font-family:"Roboto";
-    font-size: 10px;
+    font-size:20px;
     width:auto;
     height: auto;
     padding:0%;
@@ -37,16 +38,27 @@ body{
     padding:0;
 }
 
-p{
-   font-size:20px ;
-}
 
 #homepageAbout{
-    color:#836a4a;
+    color:rgb(179, 138, 76);
+    font-size: 40px;
 }
 
-#hamitems{
-    size:80px
+.reAboutMe{
+    font-size: 5px;
+}
+
+#aboutSubLine{
+    font-size:20px;
+    font-weight: 100;
+}
+
+#aboutP{
+    font-size:16px;
+}
+
+.reImage{
+    float:right;
 }
 
 
