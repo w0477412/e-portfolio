@@ -31,6 +31,11 @@ Description: css style sheet for resume.html
       display: none;
     }
 
+    /*hide checkbox*/
+    #hamburger{
+      display: none;
+    }
+
       #hamnav input:checked ~ #hamitems { 
       display: block;
      }
@@ -122,7 +127,7 @@ Description: css style sheet for resume.html
   padding: 10px 10px 5px 100px;
 }
 
-/*mainpage grid*/
+/*homepage grid*/
   .grid-container-home{
     display:grid;
     grid-auto-columns: 1fr;
