@@ -71,13 +71,29 @@ body{
     display:flex;
     width:80%;
     flex-direction: row;
+    align: center;
   }
 
   .flex-container >div{
     flex:auto;
     width: 20%;
     align-content: center;
-    background-color: #836a4a;
+    
   }
-  .flex-container
+  .flex-container .techSkills{
+    background-color: rgb(179,138,76);
+    padding: 2px 2px 2px 2px;
+    margin:2px;
+  }
+  .flex-container .certs{
+    background-color: rgb(179,138,76);
+    padding: 2px 2px 2px 2px;
+    margin:2px;
+    flex-grow: 4;
+  }
+  .flex-container .personalSkills{
+    background-color: rgb(179,138,76);
+    padding: 2px 2px 2px 2px;
+    margin:2px;
+  }
 
