@@ -60,7 +60,7 @@ Description: css style sheet for resume.html
       padding-left: 10px;
       padding-right: 10px;
     }
-
+    /*homepage grid*/
     .grid-container-home{
       display:grid;
       grid-auto-columns: 1fr;
@@ -77,18 +77,45 @@ Description: css style sheet for resume.html
   .grid-container-home .reAboutMe{
       border: 0px;
   }
-
+  /*skills&certs flex*/
   .flex-container-skills{
     display:flex;
     width:auto;
     flex-direction: column;
     align-self: center;
-    
   }
 
   .flex-container-skills >div{
     flex:auto;
     align-content: center;
+  }
+  /*future plans flex*/
+  
+  .flex-future {
+    display:flex;
+    width:auto;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  .flex-future >div{
+    flex:auto;
+    align-content: center;
+  }
+
+  /*contact me flex*/
+  .flex-contact{
+    display:flex;
+    width:auto;
+    flex-direction: column;
+    align-self: center;
+
+  }
+
+  .flex-contact >div{
+    flex:auto;
+    align-content: center;
+    text-align: center;
   }
 }
     
@@ -213,5 +240,37 @@ Description: css style sheet for resume.html
   flex:auto;
   width: 20%;
   align-content: center;
+}
+
+/*future flex box*/
+.flex-future {
+  display:flex;
+  width:auto;
+  flex-direction: row;
+  align-self: center;
+  padding: 10px 100px 20px 100px;
+}
+
+.flex-future >div{
+  flex:auto;
+  width: 20%;
+  align-content: center;
+}
+/*contact me flex*/
+
+.flex-contact{
+  display:flex;
+  width:auto;
+  flex-direction: row;
+  align-self: center;
+  padding: 10px 100px 20px 100px;
+
+}
+
+.flex-contact >div{
+  flex:auto;
+  width:20%;
+  align-content: center;
+  text-align: center;
 }
 }
