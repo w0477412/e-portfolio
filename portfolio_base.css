@@ -63,5 +63,21 @@ body{
     width:100%;
 }
 
+#skillsHeader{
+    text-align: center;
+}
 
+.flex-container{
+    display:flex;
+    width:80%;
+    flex-direction: row;
+  }
+
+  .flex-container >div{
+    flex:auto;
+    width: 20%;
+    align-content: center;
+    background-color: #836a4a;
+  }
+  .flex-container
 
