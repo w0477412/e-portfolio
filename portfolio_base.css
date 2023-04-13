@@ -94,7 +94,6 @@ a:hover{
     flex:auto;
     width: 20%;
     align-content: center;
-    min-height: 50vh;
   }
   .flex-container-skills .techSkills{
     background-color: whitesmoke;
@@ -136,7 +135,6 @@ a:hover{
     flex:auto;
     width: 20%;
     align-content: center;
-    min-height: 50vh;
   }
 
   #future-heading{
@@ -179,12 +177,8 @@ a:hover{
   .flex-contact >div{
     flex:auto;
     width:20%;
-    min-height: 20vh; /*maybe change?*/
     align-content: center;
     text-align: center;
-    justify-content:center;
-    vertical-align: middle;
-    align-items: center;
   }
 
   #contactHeading{
