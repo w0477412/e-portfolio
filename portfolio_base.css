@@ -31,7 +31,7 @@ h2{
 body{
     background-color: rgb(247 247 247);
     color: black;
-    font-family:"Roboto";
+    font-family:'Ubuntu', sans-serif;
     font-size:20px;
     width:auto;
     height: auto;
@@ -40,13 +40,16 @@ body{
     padding:0;
 }
 ul{
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
-a:link, a:hover, a:visited, a:focus, a:active {
-    color: rgb(179, 138, 76);
+a:link, a:visited, a:focus, a:active {
+    color:black;
     text-decoration: none;
   }
+a:hover{
+    color: rgb(179, 138, 76);
+}
 
 #homepageAbout{
     color:rgb(179, 138, 76);
@@ -55,6 +58,7 @@ a:link, a:hover, a:visited, a:focus, a:active {
 
 .reAboutMe{
     font-size: 5px;
+    border-left:2px solid rgb(179, 138, 76) ;
 }
 
 #aboutSubLine{
@@ -96,7 +100,7 @@ a:link, a:hover, a:visited, a:focus, a:active {
     background-color: whitesmoke;
     margin:4px;
     padding:15px;
-    border:2px solid black;
+    border:2px solid darkgray;
     list-style-position: inside;
   }
   .flex-container-skills .certs{
@@ -104,14 +108,14 @@ a:link, a:hover, a:visited, a:focus, a:active {
     margin:4px;
     flex-grow: 4;
     padding:15px;
-    border:2px solid black;
+    border:2px solid darkgray;
     
   }
   .flex-container-skills .personalSkills{
     background-color: whitesmoke;
     margin:4px;
     padding:15px;
-    border:2px solid black;
+    border:2px solid darkgray;
     list-style-position: inside;
   }
 
@@ -147,7 +151,7 @@ a:link, a:hover, a:visited, a:focus, a:active {
     margin:4px;
     flex-grow: 4;
     padding:6px;
-    border:2px solid black;
+    border:2px solid darkgray;
   }
 
   .flex-future .going{
@@ -155,7 +159,7 @@ a:link, a:hover, a:visited, a:focus, a:active {
     margin:4px;
     flex-grow: 4;
     padding:6px;
-    border:2px solid black;
+    border:2px solid darkgray;
   }
 
   .flex-future >div h2{
@@ -175,9 +179,12 @@ a:link, a:hover, a:visited, a:focus, a:active {
   .flex-contact >div{
     flex:auto;
     width:20%;
+    min-height: 20vh; /*maybe change?*/
     align-content: center;
     text-align: center;
-    min-height: 20vh;
+    justify-content:center;
+    vertical-align: middle;
+    align-items: center;
   }
 
   #contactHeading{
@@ -192,7 +199,7 @@ a:link, a:hover, a:visited, a:focus, a:active {
     margin:4px;
     flex-grow: 4;
     padding:6px;
-    border:2px solid black;
+    border:2px solid darkgray;
     justify-content: center;
     align-items: center;
   }
@@ -201,20 +208,22 @@ a:link, a:hover, a:visited, a:focus, a:active {
     margin:4px;
     flex-grow: 4;
     padding:6px;
-    border:2px solid black;
+    border:2px solid darkgray;
   }
   .flex-contact .coffees {
     background-color: whitesmoke;
     margin:4px;
     flex-grow: 4;
     padding:6px;
-    border:2px solid black;
+    border:2px solid darkgray;
   }
   .flex-contact .linkedIn {
     background-color: whitesmoke;
     margin:4px;
     flex-grow: 4;
     padding:6px;
-    border:2px solid black;
+    border:2px solid darkgray;
+    align-items:center;
+    justify-content:center;
   }
 

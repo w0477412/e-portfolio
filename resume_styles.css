@@ -4,6 +4,10 @@ Author: Aundrea Johnston
 Date: Feb 3 2023
 Description: css style sheet for e portfoloio
 */
+#resumePage{
+    font-family: 'Roboto Slab', serif;
+}
+
 .reWork h3{
     font-size:25px;
     text-decoration: underline;
