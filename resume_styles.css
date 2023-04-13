@@ -48,19 +48,19 @@ Description: css style sheet for e portfoloio
 }
 
 .grid-container-resume .reEducation{
-    padding: 10px;
+    padding: 10px 10px 5px 100px;
 }
 
 .grid-container-resume .reWork{
-    padding: 10px;
+    padding: 10px 10px 5px 100px;
 }
 
 .grid-container-resume .rePersonal{
-    padding: 10px;
+    padding: 10px 10px 5px 100px;
 }
 
 .grid-container-resume .reSkills{
-    padding: 10px;
+    padding: 10px 10px 5px 100px;
 }
 
 .reWork h3{
