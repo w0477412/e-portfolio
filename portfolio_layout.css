@@ -8,39 +8,59 @@ Description: css style sheet for resume.html
 
 @media only screen and (max-width: 768px) { /*mobile phone*/
 
-      /*BREAK INTO VERTICAL MENU */
-      #hamitems a {
-        box-sizing: border-box;
-        display: block;
-        width: 100%;
-        border-top: 1px solid #333;
-      }
-     
-      /*SHOW HAMBURGER ICON */
-      #hamnav label { 
-        display: inline-block; 
-        background: white;
-        color: #836a4a;
-        font-style: normal;
-        font-size: 1.2em;
-        padding: 10px;
-      }
-    
-      /*TOGGLE SHOW/HIDE MENU */
-      #hamitems { 
-      display: none;
-    }
+  /*BREAK INTO VERTICAL MENU */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+  /*SHOW HAMBURGER ICON */
+  #hamnav label { 
+    display: inline-block; 
+    background: white;
+    color: #836a4a;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  /*TOGGLE SHOW/HIDE MENU */
+  #hamitems { 
+    display: none;
+  }
+  /*hide checkbox*/
+  #hamburger{
+    display: none;
+  }
+  #hamnav input:checked ~ #hamitems { 
+    display: block;
+  } 
 
-    /*hide checkbox*/
-    #hamburger{
-      display: none;
-    }
+    /*grid display*/
+    .reImage {grid-area: reImage; }
+    .reAboutMe {grid-area: reAboutMe; }
+    .reHeading { grid-area: reHeading; }
+    .rePersonal { grid-area: rePersonal; }
+    .reContact { grid-area: reContact; }
+    .reEducation { grid-area: reEducation; }
+    .reSkills { grid-area: reSkills; }
+    .reWork { grid-area: reWork; }
 
-      #hamnav input:checked ~ #hamitems { 
-      display: block;
-     }
-    
+    /*resume grid*/
+    .grid-container-resume {
+      display: grid;
+      grid-auto-rows: auto; 
+      grid-auto-columns: 1fr;
+      grid-template-areas:
+        'reHeading'
+        'rePersonal'
+        'reEducation'
+        'reSkills'
+        'reWork';
+      padding-left: 10px;
+      padding-right: 10px;
     }
+}
     
 
 
