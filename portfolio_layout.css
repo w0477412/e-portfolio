@@ -77,6 +77,19 @@ Description: css style sheet for resume.html
   .grid-container-home .reAboutMe{
       border: 0px;
   }
+
+  .flex-container-skills{
+    display:flex;
+    width:auto;
+    flex-direction: column;
+    align-self: center;
+    
+  }
+
+  .flex-container-skills >div{
+    flex:auto;
+    align-content: center;
+  }
 }
     
 
@@ -185,5 +198,20 @@ Description: css style sheet for resume.html
     padding: 10% 10%;
     font-size: 20px;
     width:80%;
+}
+
+/*skills flex container*/
+.flex-container-skills{
+  display:flex;
+  width:auto;
+  flex-direction: row;
+  align-self: center;
+  padding: 10px 100px 20px 100px;
+}
+
+.flex-container-skills >div{
+  flex:auto;
+  width: 20%;
+  align-content: center;
 }
 }
