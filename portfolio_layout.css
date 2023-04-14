@@ -72,7 +72,6 @@ Description: css style sheet for resume.html
       width: 80%;
       margin-left: auto;
       margin-right: auto;
-      float:center;
   }
   .grid-container-home .reAboutMe{
       border: 0px;
@@ -178,7 +177,6 @@ Description: css style sheet for resume.html
   margin-right: auto;
 }  
 .grid-container-resume > div {
-  grid:auto;
   text-align:left;
   padding: 10% 10%;
   font-size: 30px;
@@ -217,10 +215,8 @@ Description: css style sheet for resume.html
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    float:center;
 }
   .grid-container-home > div {
-    grid:auto;
     text-align: left;
     padding: 10% 10%;
     font-size: 20px;
